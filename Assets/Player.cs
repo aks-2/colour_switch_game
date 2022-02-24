@@ -40,7 +40,6 @@ public class Player : MonoBehaviour {
 		if (col.tag != currentColor)
 		{
 			Debug.Log("GAME OVER!");
-			//Set.SceneManager("Game over! ")
 			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 		}
 	}
